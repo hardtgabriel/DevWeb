@@ -1,0 +1,187 @@
+html {
+  font-size: clamp(1rem, calc(0.5rem + 1vw), 1.625rem);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 3vw 0 3vw 0;
+}
+
+header nav ul li {
+  padding: 2vw 0 2vw 0;
+  color: rgb(189, 189, 189);
+}
+
+section.banner h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2vw 2vw 2vw 2vw;
+}
+
+section.banner h2 span {
+  color: #458FF6;
+}
+
+section.banner p {
+  color: rgb(158, 158, 158);
+  padding: 2vw 0 2vw 0;
+  padding: 2vw 2vw 2vw 2vw;
+}
+
+section.banner p button {
+  background-color: #458FF6;
+  color: white;
+  padding: 8px 16px 8px 16px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+section.cuidados {
+  text-align: center;
+  padding: 1vw 2vw 1vw 2vw;
+}
+
+section.cuidados h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 5vw 0 5vw 0;
+}
+
+section.cuidados h2 span {
+  border-bottom: 2px solid rgb(0, 0, 0);
+  padding: 2vw 0 2vw 0;
+  display: inline-block;
+}
+
+section.cuidados p {
+  color: rgb(161, 161, 161);
+  font-size: 0.7rem;
+  padding: 0 0 7vw 0;
+}
+
+section.cuidados ul li {
+  border: 1px solid;
+  padding: 15px 15px 15px 15px;
+  margin: 3vw 10vw 0 10vw;
+  text-align: left;
+  border-radius: 10px;
+}
+
+section.cuidados button a {
+  border: 2px solid #458FF6;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 10px 20px 10px 20px;
+  margin: 3vw 0 0 0;
+  color: #458FF6;
+}
+
+section.cuidados button a:hover {
+  background-color: #458FF6;
+  color: white;
+}
+
+section.depoimentos {
+  background-color: #458FF6;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  margin: 12px 12px 12px 12px;
+  padding: 12vw 17vw 12vw 17vw;
+}
+
+section.depoimentos h2 {
+  font-size: 2rem;
+}
+
+section.depoimentos h2 span {
+  border-bottom: 2px solid #ffffff;
+  display: inline-block;
+  padding: 3vw 0 3vw 0;
+  margin: 0 0 5vw 0;
+}
+
+section.depoimentos p {
+  padding: 5vw 0 0 0;
+}
+
+footer {
+  background-color: #458FF6;
+  color: #ffffff;
+  text-align: center;
+}
+
+footer h3 {
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 5vw 0 5vw 0;
+}
+
+footer ul li {
+  padding: 1vw 1vw 1vw 1vw;
+}
+
+footer p {
+  padding: 10vw 0 5vw 0;
+}
+
+/*Computador*/
+
+@media only screen and (min-width: 600px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw 3vw 10vw;
+  }
+
+  header nav ul {
+    display: flex;
+    gap: 20px;
+  }
+
+  header nav ul li:hover {
+    color: black;
+  }
+
+  section.banner {
+    display: flex;
+    padding: 3vw 10vw 3vw 10vw;
+    gap: 10px;
+  }
+
+  section.cuidados ul {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    padding: 4vw 0 0 0;
+  }
+
+  section.cuidados ul li {
+    margin: 0 0 0 0;
+    width: 20%;
+  }
+
+  section.depoimentos div {
+    text-align: left;
+    display: flex;
+    gap: 10vw;
+  }
+
+  section.depoimentos div img {
+    width: 60vw;
+  }
+
+  footer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10vw;
+  }
+
+  footer div p {
+    margin: 2vw 2vw 2vw 2vw;
+    text-align: left;
+  }
+
+}

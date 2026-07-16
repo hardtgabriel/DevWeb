@@ -1,0 +1,154 @@
+html {
+  font-size: clamp(1rem, calc(0.5rem + 1vw), 1.625rem);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a.btn {
+  background: #96BB7C;
+  padding: 10px 15px 10px 15px;
+  border-radius: 7%;
+  color: #ffffff;
+}
+
+a.btn:hover {
+  background: #63834c;
+}
+
+a.btn-border {
+  color: #96BB7C;
+  border: 2px solid #96BB7C;
+  padding: 8px 15px 8px 15px;
+  border-radius: 7%;
+}
+
+a.btn-border:hover {
+  background: #ababab;
+  color: #ffffff;
+}
+
+header {
+  background-color: #fff2f3;
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw 10vw 3vw 10vw;
+}
+
+header nav ul {
+  display: flex;
+  gap: 20px;
+  font-size: 0.8rem;
+}
+
+header h1 {
+  font-weight: 600;
+}
+
+section.banner {
+  background-color: #fff2f3;
+  padding: 3vw 10vw 0vw 10vw;
+  display: flex;
+  gap: 5vw;
+
+}
+
+section.banner h3 {
+  color: #96BB7C;
+  padding: 3vw 0 2vw 0;
+  font-size: 0.7rem;
+}
+
+section.banner h2 {
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 0 0 4vw 0;
+}
+
+section.banner p {
+  padding: 0 0 4vw 0;
+  color: #ababab;
+
+}
+
+section.team {
+  padding: 3vw 10vw 3vw 10vw;
+}
+
+section.team ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 6vw 0vw 0vw 0vw;
+}
+
+section.team ul li {
+  width: 20%;
+  background: #e4eddd;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+section.team ul li p {
+  color: #ababab;
+  font-size: 0.7rem;
+}
+
+section.team h3 {
+
+  color: #96BB7C;
+  font-size: 0.7rem;
+  padding: 0 0 1vw 0;
+}
+
+section.team h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 0 0 1vw 0;
+}
+
+section.team>p {
+
+  color: #ababab;
+  font-size: 0.7rem;
+  padding: 0 50% 0 0;
+}
+
+section.final {
+  background: #FFF2F3;
+  text-align: center;
+}
+
+section.final h3 {
+  color: #63834c;
+  font-weight: bold;
+  font-size: 0.6rem;
+  padding: 8vw 0 2vw 0;
+}
+
+section.final h2 {
+  color: #000000;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0 0 2vw 0;
+}
+
+section.final p {
+  font-size: 0.7rem;
+  color: #737373;
+  padding: 0 27vw 15vw 27vw;
+
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw 10vw 3vw 10vw;
+}
+footer p {
+  font-size: 0.6rem;
+}
+footer nav ul {
+  display: flex;
+  gap: 10px;
+  width: 80%;
+  
+}
