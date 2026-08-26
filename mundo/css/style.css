@@ -1,0 +1,167 @@
+/* === IMPORTAÇÃO DE FONTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+/*
+Fontes Disponíveis:
+// Sugiro usar esta 
+font-family: "Urbanist", sans-serif; 
+font-family: "Fredoka", sans-serif;
+font-family: "Epilogue", sans-serif;
+font-family: "Nunito", sans-serif;
+font-family: "Oswald", sans-serif;
+*/
+/* ==========================*/
+
+/* ==== FORMATAÇÃO GERAL === */
+html{
+    font-size: clamp(1rem, 2vw + 0.8rem, 3rem); 
+}
+header {
+    text-align: center;
+}
+nav ul li{
+    font-size: 0.8rem;
+    padding: 5px;
+}
+section.banner {
+    background-color: rgb(207, 207, 207);
+    margin: 5vw;
+    text-align: center;
+    border-radius: 10px;
+}
+section.banner h2 {
+    font-size: 1.6rem;
+    margin: 3vw 2vw;
+}
+section.banner h2 span {
+    color: #c70764;
+}
+section.banner>p {
+    font-size: 0.8rem;
+    margin: 0 0 3vw 0;
+}
+section.banner p a {
+    background-color: #EF3F6E;
+    font-size: 0.7rem;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 3vw 0;
+}
+section.lista {
+    text-align: center;
+}
+section.lista h3 {
+    font-size: 1.3rem;
+    padding: 10vw 6vw 0 6vw;
+}
+section.lista ul {
+    margin: 20px;
+}
+section.lista p {
+    color: rgb(207, 207, 207);
+    font-size: 0.8rem;
+}
+section.lista li {
+    margin: 5vw 0;
+}
+section.cliente {
+    background-color: #F9DBF7;
+    margin: 5vw;
+    text-align: center;
+    border-radius: 10px;
+}
+section.cliente > p {
+    font-size: 0.6rem;
+    padding: 5vw 0;
+    color: #c70764;
+}
+section.cliente h3 span {
+    color: #c70764;
+    border-bottom: 2px solid #c70764;
+}
+section.cliente p a {
+    background-color: #EF3F6E;
+    font-size: 0.7rem;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 3vw 0;
+    
+}
+footer.rodape {
+    text-align: center;
+}
+footer.rodape p {
+    font-size: 0.8rem;
+    margin: 5vw 0 5vw 0;
+}
+nav.navbar img {
+    width: 10%;
+    padding: 10px;
+}
+
+
+
+
+
+/* MEDIA QUERY - DESKTOP */
+@media  screen and (min-width: 600px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 5vw 10vw;
+    }
+    nav ul {
+        display: flex;
+        
+    }
+    nav ul li {
+        font-size: 0.4rem;
+        margin-left: 5vw;
+    }
+    section.banner {
+        margin: 5vw 7vw;
+        text-align: left;
+    }
+    div.texto > p {
+        margin: 0 2vw;
+        padding: 0 20vw 0 0;
+        display: inline-block;
+    }
+    div.icon-banner {
+        display: flex;
+        width: 50%;
+    }
+    section.lista h3 {
+        font-size: 1.0rem;
+        padding: 0 25vw;
+    }
+    section.lista ul {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    section.lista li h4 {
+        font-size: 0.6rem;
+    }
+    section.lista li p {
+        font-size: 0.4rem;
+    }
+    section.cliente {
+        margin: 5vw 7vw;
+    }
+    section.cliente h3 {
+        padding: 0 21vw;
+    }
+    footer.rodape ul {
+        margin: 0 0 0 37vw;
+    }
+    
+
+
+
+}
